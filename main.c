@@ -9,6 +9,8 @@ int main(void)
   
   if (spoopy_date == HALLOWEEN_UNIX_TIMESTAMP) {
     is_halloween = 1;
-    printf("happy spoopy month\n");
-  }  
+    printf("happy halloween\n");
+  } else {
+    printf("not yet halloween\n");
+  }
 }
